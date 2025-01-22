@@ -1,0 +1,60 @@
+{
+    "version": 2,
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Header",
+            "area": "header"
+        },
+        {
+            "name": "sidebar",
+            "title": "Custom Sidebar",
+            "area": "uncategorized"
+        },
+        {
+            "name": "footer",
+            "title": "Custom Footer",
+            "area": "footer"
+        }
+    ],
+    "settings": {
+        "layout": {
+            "contentSize": "700px"
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "blockGap": true
+        },
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "color": "#777862"
+                },
+                {
+                    "name": "Secondary",
+                    "slug": "secondary",
+                    "color": "#844a57"
+                },
+                {
+                    "name": "Success",
+                    "slug": "success",
+                    "color": "#53a36b"
+                },
+                {
+                    "name": "Success Lighter",
+                    "slug": "success-lighter",
+                    "color": "#99b98e"
+                },
+                {
+                    "name": "Color Light",
+                    "slug": "color-light",
+                    "color": "#d7cfb2"
+                }
+            ]
+        }
+    }
+}
