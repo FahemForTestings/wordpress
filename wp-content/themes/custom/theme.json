@@ -18,13 +18,9 @@
         }
     ],
     "settings": {
+        "appearanceTools": true,
         "layout": {
-            "contentSize": "700px"
-        },
-        "spacing": {
-            "padding": true,
-            "margin": true,
-            "blockGap": true
+            "contentSize": "1000px"
         },
         "color": {
             "defaultPalette": false,
