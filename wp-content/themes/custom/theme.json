@@ -3,7 +3,7 @@
     "templateParts": [
         {
             "name": "header",
-            "title": "Header",
+            "title": "Custom Header",
             "area": "header"
         },
         {

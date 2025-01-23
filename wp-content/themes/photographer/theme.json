@@ -1,0 +1,46 @@
+{
+    "version": 2,
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Custom Header",
+            "area": "header"
+        }
+    ],
+    "settings": {
+        "appearanceTools": true,
+        "useRootPaddingAwareAlignements": true,
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1320px"
+        },
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "#181818"
+                },
+                {
+                    "name": "Contrast",
+                    "slug": "contrast",
+                    "color": "#ffc700"
+                },
+                {
+                    "name": "Success",
+                    "slug": "success",
+                    "color": "#53a36b"
+                }
+            ]
+        },
+        "blocks": {
+            "core/social-link-anchor": {
+                "css": "border-radius: 4px; &:hover{background-color: transparent !important;}"
+            },
+            "core/navigation-link-anchor": {
+                "css": "& .wp-block-navigation-item__content{padding-bottom: 2px; transition: all 0.5s ease-in;}& .wp-block-navigation-item__content:hover{border-bottom: 2px solid  var(--wp--preset--color--contrast);} &.current-menu-item > .wp-block-navigation-item__content{border-bottom:2px solid  var(--wp--preset--color--contrast);}"
+            }
+        }
+    }
+}
